@@ -1,0 +1,23 @@
+{
+  "name": "@criteria/serialization",
+  "version": "0.1.0",
+  "description": "Convert JavaScript values to JSON strings, with fine-grained control over how shared values should be encoded.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "clean": "rimraf tsconfig.tsbuildinfo ./dist",
+    "build": "tsc --build",
+    "dev": "tsc --watch",
+    "test": "vitest"
+  },
+  "author": "Criteria Labs Pty Ltd",
+  "license": "MIT",
+  "devDependencies": {
+    "rimraf": "^5.0.5",
+    "typescript": "^5.4.4",
+    "vitest": "^1.4.0"
+  },
+  "dependencies": {
+    "@criteria/json-pointer": "^0.1.1"
+  }
+}

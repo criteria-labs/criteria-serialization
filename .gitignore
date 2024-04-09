@@ -1,0 +1,9 @@
+# Editors
+.vscode
+
+# Dependencies
+node_modules
+
+# Build
+dist
+tsconfig.tsbuildinfo
